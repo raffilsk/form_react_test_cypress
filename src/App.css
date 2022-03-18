@@ -1,3 +1,28 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;  
+  background: #001122;
+  color: #DEDEDE;
+}
+
+form {
+  margin: 0 auto;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+input{
+  width: 20rem;
+  height: 2rem;
+  padding-left: 0.5rem;
+}
+
+input.submit{
+  width: 15rem;
+  background: #1aad3f;
+  color: white;
 }
