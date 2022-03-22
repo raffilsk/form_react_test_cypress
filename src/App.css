@@ -26,3 +26,14 @@ input.submit{
   background: #1aad3f;
   color: white;
 }
+table{
+  width: 40rem;
+  margin: 5rem auto;
+  font-size: 1.2rem;
+  color: #ddd;
+}
+td{
+  color: #001122;
+  background: #ddd;
+  padding: 0.3rem;
+}
